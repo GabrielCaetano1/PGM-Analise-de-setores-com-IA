@@ -154,6 +154,6 @@ plt.title("Matriz de Confusão")
 plt.show()
 
 # Salvar modelo e vetorizer
-joblib.dump(model, "sentiment_model.pkl")
-joblib.dump(vectorizer, "vectorizer.pkl")
+joblib.dump(model, "../sentiment_model.pkl")
+joblib.dump(vectorizer, "../vectorizer.pkl")
 print("Modelo e vetorizer salvos com sucesso!")
